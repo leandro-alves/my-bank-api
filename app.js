@@ -5,7 +5,7 @@ import { accountRouter } from './routes/accountRouter.js';
 
 const app = express();
 
-require('dotenv').config();
+//require('dotenv').config();
 
 (async () => {
     try {
