@@ -5,8 +5,6 @@ import { accountRouter } from './routes/accountRouter.js';
 
 const app = express();
 
-//require('dotenv').config();
-
 (async () => {
     try {
         await mongoose.connect(
